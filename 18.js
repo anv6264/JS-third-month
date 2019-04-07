@@ -10,7 +10,7 @@ else{
 console.log(a);
 
 
-/*
+
 var item = prompt ("enter item")
 if (item == false){
     alert("верно");
@@ -64,4 +64,4 @@ for (var i = 2; i <= 100; i++) {
   if (i % 2 == 0) {
     console.log( i );
   }
-}*/
+}
