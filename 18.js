@@ -10,7 +10,6 @@ else{
 console.log(a);
 
 
-
 var item = prompt ("enter item")
 if (item == false){
     alert("верно");
@@ -47,7 +46,7 @@ console.log(a||b);
 
 
 var month = prompt ('enter a number of a month from 1 to 12');
-if (month <= 2 || month ==12){
+if (month <= 2 & month ==12){
     alert('it is Winter');
 }else if(month >= 3 & month <= 5){
     alert('it is Spring');
@@ -55,7 +54,7 @@ if (month <= 2 || month ==12){
     alert('it is Summer');
 }else if(month >= 9 & month <=11){
     alert('it is Autumn');
-}else if(month > 12){
+}else if(month > 12 || month <= 0){
     alert('incorrect number');
 }
 
