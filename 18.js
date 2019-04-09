@@ -1,6 +1,6 @@
 'use strict';
 
-var a = prompt ('enter a');
+var a = '1';
 if (a === '1') {
     alert('Верно!');
 }
@@ -59,7 +59,7 @@ if (month <= 2 & month ==12){
 }
 
 
-for (var i = 2; i <= 100; i++) {
+for (var i = 0; i <= 100; i++) {
   if (i % 2 == 0) {
     console.log( i );
   }
